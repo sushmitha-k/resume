@@ -1,0 +1,201 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F7F7F7;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h4 {
+  font-size: 0.8rem;
+  padding: 3px 0 5px 0;
+}
+
+h3 {
+  font-size: 0.8rem;
+  font-weight: 500;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #c9c9c9;
+}
+
+p {
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-align: left;
+  margin: 0;
+}
+
+h1, h3, h4, h5 {
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+h1, h4 {
+  font-weight: 500;
+}
+
+.right h4, h5 {
+  font-weight: 500;
+
+}
+
+.right p, li {
+  font-weight: 400;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p,
+a,
+ul li {
+  font-size: 0.6rem;
+}
+
+ul {
+  margin: 0 0 0 20px;
+}
+
+/* =================================
+  Container Styles
+==================================== */
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.left {
+  float: left;
+  width: 40%;
+  padding: 0 1rem;
+  color: #212125;
+  background-color: #040405;
+}
+
+.right {
+  float: right;
+  width: 60%;
+  padding: 1rem 2rem;
+  font-weight: 500;
+  color: #212125;
+  background-color: #ffffff;
+}
+
+/* =================================
+   Left Sidebar
+==================================== */
+
+.profile {
+  border-radius: 50%;
+}
+
+#followme, #reference, #proskills {
+  text-align: left;
+  padding: 10px 0;
+}
+
+#followme a, #reference a {
+  color: #c9c9c9;
+}
+
+#proskills h5 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+.vl {
+  border-left: 2px solid black;
+  height: 1110px;
+  position: absolute;
+  left: 40%;
+  top: 0;
+}
+
+/*-----progress bar-----*/
+
+progress[value] {
+  -webkit-appearance: none;
+  -webkit-print-color-adjust: exact;
+  appearance: none;
+  width: 200px;
+  height: 15px;
+  margin: 3px 0 8px 0;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #ccc;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #8e8e8e;
+}
+
+/* =================================
+   Right Sidebar
+==================================== */
+
+#personalskills progress[value] {
+  -webkit-print-color-adjust: exact;
+  width: 180px;
+  height: 18px;
+  margin-right: 70px;
+}
+
+#personalskills progress[value]::-webkit-progress-bar {
+  background-color: #c9c9c9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+#personalskills progress[value]::-webkit-progress-value {
+  background-color: #212125;
+}
+
+/*-------Basic Styles-------*/
+
+.right {
+  padding-left: 40px;
+  text-align: left;
+}
+
+.main {
+  margin-left: 40px;
+}
+
+.sub-title {
+  color: #8e8e8e;
+}
+
+.icon h3 {
+  padding-left: 15px;
+}
+
+.icon img, h3 {
+  display: inline-block;
+}
+
+#work p, #education p {
+  padding: 2px 0 5px 0;
+}
+
+ul li {
+  padding: 1px;
+}

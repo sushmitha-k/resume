@@ -1,0 +1,193 @@
+/* =================================
+  Base Element Styles
+==================================== */
+
+* {
+  box-sizing: border-box;
+}
+
+body {
+  background: #F7F7F7;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+h1, h4 {
+  font-size: 1.3rem;
+  padding: 10px 0 15px 0;
+}
+
+h3 {
+  font-size: 1rem;
+  text-transform: uppercase;
+}
+
+h4 {
+  color: #c9c9c9;
+}
+
+p {
+  font-weight: 500;
+  letter-spacing: 0.05em;
+  text-align: left;
+  margin: 0;
+}
+
+h1, h3, h4, h5 {
+  letter-spacing: 0.1em;
+  margin: 0;
+}
+
+.right h4, h5 {
+  font-weight: 900;
+
+}
+
+.right p, li {
+  font-weight: 600;
+}
+
+a {
+  text-decoration: none;
+  color: #fff;
+}
+
+p,
+a,
+ul li {
+  font-size: 0.8rem;
+}
+
+ul {
+  margin: 0 0 0 30px;
+}
+
+/* =================================
+  Container Styles
+==================================== */
+
+#container {
+  margin: 1em auto 0;
+  width: 75%;
+  background: white;
+  text-align: center;
+  -webkit-box-shadow: 0 1px 10px #D9D9D9;
+  -moz-box-shadow: 0 1px 10px #D9D9D9;
+  -ms-box-shadow: 0 1px 10px #D9D9D9;
+  -o-box-shadow: 0 1px 10px #D9D9D9;
+  box-shadow: 0 1px 10px #D9D9D9;
+}
+
+.row:after {
+  content: "";
+  display: table;
+  clear: both;
+  margin-bottom: 30px
+}
+
+.left {
+  float: left;
+  width: 40%;
+  padding: 3rem;
+  color: #f9f9f9;
+  background-color: #040405;
+}
+
+.right {
+  float: right;
+  width: 60%;
+  padding: 3rem;
+  font-weight: 500;
+  color: #040405;
+  background-color: #ffffff;
+}
+
+/* =================================
+   Left Sidebar
+==================================== */
+
+#followme, #reference, #proskills {
+  text-align: left;
+  padding: 15px 0;
+}
+
+#followme a, #reference a {
+  color: #c9c9c9;
+}
+
+#proskills h5 {
+  font-size: 0.8rem;
+  font-weight: lighter;
+}
+
+.title {
+  padding-bottom: 10px;
+}
+
+progress[value] {
+  -webkit-appearance: none;
+  appearance: none;
+  width: 250px;
+  height: 18px;
+  margin: 5px 0 15px 0;
+}
+
+progress[value]::-webkit-progress-bar {
+  background-color: #f9f9f9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+progress[value]::-webkit-progress-value {
+  background-color: #8e8e8e;
+}
+
+/* =================================
+   Right Sidebar
+==================================== */
+
+#personalskills progress[value] {
+  width: 180px;
+  height: 18px;
+  margin-right: 70px;
+}
+
+#personalskills progress[value]::-webkit-progress-bar {
+  background-color: #c9c9c9;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25) inset;
+}
+
+#personalskills progress[value]::-webkit-progress-value {
+  background-color: #040405;
+}
+
+/*-------Basic Styles-------*/
+
+.right {
+  padding-left: 60px;
+  text-align: left;
+}
+
+.main {
+  margin-left: 60px;
+}
+
+.sub-title {
+  color: #8e8e8e;
+}
+
+.icon h3 {
+  padding-left: 15px;
+}
+
+.icon img, h3 {
+  display: inline-block;
+}
+
+#work p, #education p {
+  padding: 2px 0 5px 0;
+}
+
+ul li {
+  padding: 9px;
+}
